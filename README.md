@@ -11,7 +11,10 @@ A CLI tool that outputs the precentage of users per OS version (iOS/Android) fro
 * Download the CSV file in **firebase console -> Analytics -> Dashboard**   
 ![GitHub Logo](/Firebase.png)
 
-* ``` bash FirebaseOSBreakdown /Users/maratibragimov/Downloads/data-export.csv android
+* ```$ FirebaseOSBreakdown <path to csv export> <os (iOS or android)> ```
+
+example: ```bash 
+$ FirebaseOSBreakdown data-export.csv android
 Android 10 65.723%
 Android 9 17.699%
 Android 8 10.655%
