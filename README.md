@@ -24,7 +24,7 @@ OPTIONS:
 
 * Open terminal and run the coomand ```$ ./build.sh``` it will build the tool and set its location in `/usr/local/bin/FirebaseOSBreakdown`
 
-* Download the CSV file in **firebase console -> Analytics -> Dashboard**   
+* Download the CSV file from **firebase console -> Analytics -> Dashboard**   
 
 * ```$ firebase-os-breakdown <input-file> <os> ```
 
