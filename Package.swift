@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "FireBaseVersionBreakdown",
+    name: "firebase-os-breakdown",
     platforms: [
             .macOS(.v10_15)
     ],
