@@ -5,7 +5,10 @@ import PackageDescription
 
 let package = Package(
     name: "FireBaseVersionBreakdown",
-    products: [.executable(name: "FirebaseOSBreakdown", targets: ["FireBaseVersionBreakdown"])],
+    platforms: [
+            .macOS(.v10_15)
+    ],
+    products: [.executable(name: "firebase-os-breakdown", targets: ["FireBaseVersionBreakdown"])],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "0.3.0"),
         .package(url: "https://github.com/yaslab/CSV.swift.git", .upToNextMinor(from: "2.4.3"))

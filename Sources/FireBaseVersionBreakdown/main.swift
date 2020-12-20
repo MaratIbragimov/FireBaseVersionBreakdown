@@ -12,8 +12,7 @@ enum Row {
 struct FirebaseOSBreakdown: ParsableCommand {
     
     static var configuration = CommandConfiguration(
-        abstract: "A tool that breaks down the percentage of users per OS version.",
-        discussion: "This tool expects a Firebase CSV file taken from the firebase dashboard as an input.")
+        abstract: "Swift command line tool that outputs mobile OS versions break down from exported Firebase CSV file")
     
     @Argument
     var inputFile: String
