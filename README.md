@@ -9,7 +9,6 @@ A CLI tool that outputs the precentage of users per OS version (iOS/Android) fro
 * Open terminal and run the coomand ```$ ./build.sh``` it will build the tool and set its location in `/usr/local/bin/FirebaseOSBreakdown`
 
 * Download the CSV file in **firebase console -> Analytics -> Dashboard**   
-![GitHub Logo](/Firebase.png)
 
 * ```$ FirebaseOSBreakdown <input-file> <os> ```
 
