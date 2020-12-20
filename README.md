@@ -4,17 +4,31 @@ A CLI tool that outputs the precentage of users per OS version (iOS/Android) fro
 
 
 # Usage
+```
+firebase-os-breakdown -h
+OVERVIEW: Swift command line tool that outputs mobile OS versions break down from exported Firebase CSV file
+
+USAGE: firebase-os-breakdown <input-file> <os>
+
+ARGUMENTS:
+  <input-file>
+  <os>
+
+OPTIONS:
+  -h, --help              Show help information.
+  
+````
 * Download/clone the project.
 
 * Open terminal and run the coomand ```$ ./build.sh``` it will build the tool and set its location in `/usr/local/bin/FirebaseOSBreakdown`
 
 * Download the CSV file in **firebase console -> Analytics -> Dashboard**   
 
-* ```$ FirebaseOSBreakdown <input-file> <os> ```
+* ```$ firebase-os-breakdown <input-file> <os> ```
 
     example:
     ```bash 
-      $ FirebaseOSBreakdown data-export.csv android
+      $ firebase-os-breakdown data-export.csv android
       Android 10 65.723%
       Android 9 17.699%
       Android 8 10.655%
