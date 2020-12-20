@@ -18,6 +18,8 @@ OPTIONS:
   -h, --help              Show help information.
   
 ````
+
+# Installation
 * Download/clone the project.
 
 * Open terminal and run the coomand ```$ ./build.sh``` it will build the tool and set its location in `/usr/local/bin/FirebaseOSBreakdown`
