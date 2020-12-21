@@ -25,7 +25,7 @@ OPTIONS:
 * Open terminal and run the coomand ```$ ./build.sh``` it will build the tool and set its location in `/usr/local/bin/FirebaseOSBreakdown`
 
 ## Install using [Mint](https://github.com/yonaskolb/mint)
-```$ mint install MaratIbragimov/FireBaseVersionBreakdow ```
+```$ mint install MaratIbragimov/FireBaseVersionBreakdown ```
 
 ## Examples
 * Download the CSV file from **firebase console -> Analytics -> Dashboard**   
