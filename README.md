@@ -1,6 +1,6 @@
 # FireBaseVersionBreakdown
 
-A CLI tool that outputs the precentage of users per OS version (iOS/Android) from a Firebase CSV file.
+A CLI tool that outputs the precentage of users per OS version (iOS/Android) from a Firebase CSV dashboard file.
 
 
 # Usage
